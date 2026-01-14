@@ -355,3 +355,12 @@ C:.
 JUSTIFICACION
 - Se usa SFTP (cliente FileZilla) para transferir ficheros al contenedor SFTP expuesto en el puerto 2222.
 - Nginx sirve el contenido del volumen compartido por HTTP (8080) y por HTTPS (8443) con certificado autofirmado.
+
+LISTADO DE PROBLEMAS ENFRENTADOS
+
+- `403 / Nginx no servia el contenido` al principio porque no apuntaba a un `index.html` porque no se creó (pero si apuntaba a la base de Nginx)
+- `FileZilla incorrecto / instalador bloqueado`: el instalador que se descarga `sponsored` lo que Windows lo bloqueaba. Costó encontrar el FileZilla correcto.
+- `Dudas operativas al subir con FileZilla`: confusión sobre si había que "arrastrar" la carpeta o su contenido en lugar de añadirlos de forma correcta.
+- `Problemas editando el host de Windows`: se abria el bloc de notas de W11 pero no guardaba a pesar de hacer la apertura como administrador. Se hizo la edición por comandos.
+- `Certificados inválidos`: no se generaron de forma correcta al principio y se tuvo que hacer por comandos.
+- `Dificultad para ver el 301` porque no estaba marcada la opción de `Preserve logs` en el navegador.
