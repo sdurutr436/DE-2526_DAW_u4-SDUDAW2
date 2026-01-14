@@ -141,7 +141,7 @@ CHECKLIST
 
 FASE 1: INSTALACION Y CONFIGURACION
 [✅] 1) Servicio Nginx activo con ``docker compose ps``. Alpine no trae ``service``.
-![Servicio activo con docker compose ps](img/img-checklist/image.png)
+![Servicio activo con docker compose ps](img/img-checklist/comprobacion-docker-compose-ps.png)
 
 [✅] 2) Configuracion cargada.
 ![Configuracion cargada](img/img-checklist/comprobacion-listado-conf.png)
