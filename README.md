@@ -140,6 +140,7 @@ Completar la entrega de la practica adjuntando evidencias (capturas) y el codigo
 CHECKLIST
 
 FASE 1: INSTALACION Y CONFIGURACION
+
 [✅] 1) Servicio Nginx activo con ``docker compose ps``. Alpine no trae ``service``.
 ![Servicio activo con docker compose ps](img/img-checklist/comprobacion-docker-compose-ps.png)
 
@@ -157,6 +158,7 @@ FASE 1: INSTALACION Y CONFIGURACION
 ![Pagina CloudAcademy en 8080](img/img-checklist/demostracion-pagina-8080.png)
 
 FASE 2: TRANSFERENCIA SFTP (FILEZILLA)
+
 [✅] 5) Conexion SFTP exitosa.
 ![Conexion filezilla correcta](img/img-checklist/filezilla-conexion-correcta.png)
 
@@ -176,6 +178,7 @@ Existen varias capturas a lo largo del documento que ya lo demuestran.
 ![Reloj funcionando desde subcarpeta (se demuestra por la ruta)](img/reloj-desde-filezilla.png)
 
 FASE 4: SEGURIDAD HTTPS
+
 [✅] 10) Cifrado SSL: el servidor responde por HTTPS.
 Se demuestra en varias de las capturas del resto del documento.
 
